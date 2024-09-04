@@ -33,7 +33,7 @@ nav{
 
 .bg-colour {
     background-image: url("../assets/Hero-bg.png");
-    width: 1440px;
+    width: 100%;
     height: 652px;
     background-size: contain; /* Scales the image to cover the entire element */
     background-position: center; /* Centers the background image */
