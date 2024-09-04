@@ -1,19 +1,19 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
+body {
     font-family: "Azeret Mono", monospace;
 }
 
 
-.nav-content{
+.nav-content {
     font-size: 28px;
     font-weight: 800;
     color: #0D1321;
-    
+
 
 }
-.nav-button{
+
+.nav-button {
     font-size: 20px;
     font-weight: 600;
     color: #0D1321;
@@ -23,67 +23,73 @@ body{
     padding-bottom: 17px;
     border: 1px solid black;
     border-radius: 8px;
-    
+
 }
-nav{
+
+nav {
     display: flex;
-    justify-content:space-between ;
-    width:1440px;
+    justify-content: space-between;
+    width: 1440px;
 }
 
 .bg-colour {
     background-image: url("../assets/Hero-bg.png");
     width: 100%;
     height: 652px;
-    background-size: contain; /* Scales the image to cover the entire element */
-    background-position: center; /* Centers the background image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: contain;
+    /* Scales the image to cover the entire element */
+    background-position: center;
+    /* Centers the background image */
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
 }
 
-.img-center{
+.img-center {
     display: flex;
     justify-content: center;
-    
+
 }
-.main-heading{
+
+.main-heading {
     font-size: 48px;
     font-weight: 800;
     text-align: center;
     color: rgb(13, 19, 33);
 }
-.main-pre{
+
+.main-pre {
     font-size: 16px;
     font-weight: 400;
     text-align: center;
     color: rgb(13, 19, 33);
 }
-.btn-position{
+
+.btn-position {
     display: flex;
     justify-content: center;
-   
+
 }
-.btn-content{
+
+.btn-content {
     font-size: 20px;
     font-weight: 600;
     color: rgb(255, 255, 255);
     background-color: rgb(13, 19, 33);
     padding: 12px;
     border-radius: 10px;
-    
-    
-   
+
+
+
 }
 
-.background{
+.background {
     border-radius: 16px;
-background: rgba(13, 19, 33, 0.02);
-width:1140px;
-height: 1395px;
-margin-left: 148px;
-margin-top: 66px;
+    background: rgba(13, 19, 33, 0.02);
+    width: 1140px;
+    margin: 60px auto;
 }
 
-.main-heading-2{
+.main-heading-2 {
     font-size: 32px;
     font-weight: 800;
     color: rgb(13, 19, 33);
@@ -91,7 +97,8 @@ margin-top: 66px;
     padding-top: 80px;
 
 }
-.main-pre-2{
+
+.main-pre-2 {
     font-size: 16px;
     font-weight: 400;
     color: rgb(13, 19, 33);
@@ -99,98 +106,114 @@ margin-top: 66px;
 
 }
 
-.section-1{
+.section-1 {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
 
 }
-.main-heading-3{
+
+.main-heading-3 {
     font-size: 24px;
     font-weight: 700;
     color: rgba(13, 19, 33, 0.7);
 
 }
-.main-pre-3{
+
+.main-pre-3 {
     font-size: 16px;
     font-weight: 400;
     color: rgb(13, 19, 33);
 
 }
-.btn-content-1{
+
+.btn-content-1 {
     font-size: 20px;
     font-weight: 600;
     color: rgb(13, 19, 33);
     border: 1px solid black;
     padding: 14px;
 
-    
+
 }
-.margin-left{
+
+.margin-left {
     margin-left: 97px;
 }
-.section-5{
+
+.section-5 {
     display: flex;
     justify-content: space-between;
 }
-.margin-right{
+
+.margin-right {
     margin-right: 97px;
 }
-.class-1{
+
+.class-1 {
     display: flex;
     justify-content: space-between;
     padding-top: 157px;
-    
+
 }
-.div-2{
+
+.div-2 {
     margin-left: 97px;
 }
-.div-3{
+
+.div-3 {
     margin-right: 100px;
 }
-.div-5{
-    padding-left:48px;
+
+.div-5 {
+    padding-left: 48px;
     margin-top: 150px;
-    
+
 }
-.img-2{
+
+.img-2 {
     margin-top: 100px;
 }
 
-.midil-content{
+.midil-content {
     width: 1140px;
     height: 774px;
     margin-top: 70px;
     background-color: rgb(255, 255, 255);
 }
-.midil-heading{
+
+.midil-heading {
     font-size: 32px;
     font-weight: 800;
     color: rgb(13, 19, 33);
     text-align: center;
 
 }
-.medil-content{
+
+.medil-content {
     font-size: 16px;
     font-weight: 400;
     color: rgb(13, 19, 33);
     text-align: center;
 
 }
-.video-play{
+
+.video-play {
     text-align: center;
     margin-top: 50px;
-    
+
 
 }
-.last-heading{
+
+.last-heading {
     background-color: rgb(255, 255, 255);
     width: 1140px;
-    
-   
-    
+
+
+
 }
-.last-head{
+
+.last-head {
     font-size: 32px;
     font-weight: 800;
     color: rgb(13, 19, 33);
@@ -198,7 +221,8 @@ margin-top: 66px;
     margin-top: 150px;
     /* test */
 }
-.last-content{
+
+.last-content {
     font-size: 17px;
     font-weight: 400;
     color: rgb(13, 19, 33);
@@ -206,20 +230,31 @@ margin-top: 66px;
 
 }
 
-.last-img{
+.last-img {
     display: flex;
     justify-content: space-between;
-
-
-    
 }
-.same-class{
+
+.same-class {
     width: 284px;
-  
+
     border-radius: 16px;
-    
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px
+}
 
-background: rgba(255, 223, 0, 0.05);
-padding: 40px
+.footer-image {
+    background-image: url("../assets/Hero-bg.png");
+    width: 1140px;
+    height: 313px;
+    background-size: contain;
+    /* Scales the image to cover the entire element */
+    background-position: center;
+    /* Centers the background image */
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
+}
 
+.footer-div{
+    margin-top: 200px;
 }
